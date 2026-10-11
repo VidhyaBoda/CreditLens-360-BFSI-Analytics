@@ -7,7 +7,7 @@
 ### **FinCore AI** · Lending Portfolio Intelligence · Credit Risk · Collections · Customer Analytics
 
 <p>
-  <a href="https://github.com/VidhyaBoda/CreditLens-360-BFSI-Analytics/actions/workflows/ci.yml"><img src="https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white" alt="GitHub Actions CI" /></a>
+  <a href="https://github.com/VidhyaBoda/CreditLens-360-BFSI-Analytics/actions/workflows/ci.yml"><img src="https://github.com/VidhyaBoda/CreditLens-360-BFSI-Analytics/actions/workflows/ci.yml/badge.svg" alt="GitHub Actions CI status" /></a>
   <img src="https://img.shields.io/badge/Python-3.11%2B-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/SQL-BigQuery--ready-4285F4?style=flat&logo=googlecloud&logoColor=white" alt="SQL and BigQuery-ready" />
   <img src="https://img.shields.io/badge/App-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white" alt="Streamlit" />
