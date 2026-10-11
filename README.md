@@ -1,1299 +1,394 @@
-\<div align="center">
-
-
-
-\<div align="center">
-
-
-
-\<img src="assets/fincore-iq-header.svg"
-
-     alt="FinCore IQ — CreditLens-360-BFSI-Analytics"
-
-     width="100%"/>
-
-
-
-\<br/>
-
-
-
-[![Python]\(https\://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]\(#)
-
-[![SQL]\(https\://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)]\(#)
-
-[![BigQuery]\(https\://img.shields.io/badge/BigQuery-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)]\(#)
-
-[![Power BI]\(https\://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)]\(#)
-
-[![Tableau]\(https\://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)]\(#)
-
-[![Streamlit]\(https\://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)]\(#)
-
-
-
-\<br/>
-
-
-
-[![Domain]\(https\://img.shields.io/badge/Domain-BFSI%20%7C%20FinTech-e94560?style=flat-square)]\(#)
-
-[![Type]\(https\://img.shields.io/badge/Type-Portfolio%20Project-7c3aed?style=flat-square)]\(#)
-
-[![Data]\(https\://img.shields.io/badge/Data-Synthetic%20Only-f59e0b?style=flat-square)]\(#)
-
-[![Status]\(https\://img.shields.io/badge/Status-Active-22c55e?style=flat-square)]\(#)
-
-
-
-\</div>
-
-
-
-\> **\*\*Enterprise-grade BFSI Analytics · Credit Risk · Collections · Customer Intelligence\*\***
-
-\>&#x20;
-
-\> *\*Turning raw lending data into actionable portfolio decisions — end-to-end.\**
-
-
-
-\<br/>
-
-
-
-[🚀 Quick Start]\(#-quick-start) &nbsp;|&nbsp; [📐 Architecture]\(#-solution-architecture) &nbsp;|&nbsp; [📊 KPI Framework]\(#-core-kpi-framework) &nbsp;|&nbsp; [🤖 AI Copilot]\(#-ai-insight-copilot) &nbsp;|&nbsp; [💼 Interview Pitch]\(#-interview-pitch)
-
-
-
-\</div>
-
-
-
-\---
-
-
-
-**## 🏦 What is FinCore IQ?**
-
-
-
-**\*\*FinCore IQ\*\*** is a synthetic BFSI Decision Intelligence platform that simulates how a **\*\*retail bank or NBFC\*\*** can unify:
-
-
-
-\| Data Domain | Coverage |
-
-\|---|---|
-
-\| 👤 **\*\*Customers\*\*** | Demographics, geography, segmentation |
-
-\| 💳 **\*\*Loans\*\*** | AUM, disbursals, DPD, risk exposure |
-
-\| 💰 **\*\*Repayments\*\*** | Collection efficiency, collection gap |
-
-\| 📲 **\*\*Transactions\*\*** | Customer engagement, activity signals |
-
-\| 🛡️ **\*\*Insurance\*\*** | Cross-sell penetration, whitespace analysis |
-
-
-
-…into one **\*\*analytical workflow\*\*** covering Portfolio Management, Credit Risk, Collections, Customer Intelligence, and Cross-sell Decisions.
-
-
-
-\`\`\`
-
-Business Problem → Data → Analysis → KPI → Visualization → Insight → Action
-
-\`\`\`
-
-
-
-\> ⚠️ **\*\*Disclaimer:\*\*** All datasets are **\*\*synthetic\*\***. For portfolio & learning purposes only. Not real banking performance.
-
-
-
-\---
-
-
-
-**## 💼 Business Problems Solved**
-
-
-
-\<table>
-
-\<thead>
-
-\<tr>
-
-\<th>💬 Business Question\</th>
-
-\<th>📌 Analytical Domain\</th>
-
-\<th>🔑 Key Metric\</th>
-
-\</tr>
-
-\</thead>
-
-\<tbody>
-
-\<tr>\<td>How large is the active portfolio?\</td>\<td>Portfolio Management\</td>\<td>AUM, Disbursals\</td>\</tr>
-
-\<tr>\<td>Which products drive AUM concentration?\</td>\<td>Portfolio Mix\</td>\<td>Product-level AUM %\</td>\</tr>
-
-\<tr>\<td>Where is delinquency concentrated?\</td>\<td>Credit Risk\</td>\<td>Delinquency Rate, DPD\</td>\</tr>
-
-\<tr>\<td>Which accounts need collection priority?\</td>\<td>Collections\</td>\<td>Collection Gap, Efficiency\</td>\</tr>
-
-\<tr>\<td>Which customers show product whitespace?\</td>\<td>Customer Intelligence\</td>\<td>Product Penetration\</td>\</tr>
-
-\<tr>\<td>Where are insurance cross-sell opportunities?\</td>\<td>Cross-sell\</td>\<td>Cross-sell Rate\</td>\</tr>
-
-\<tr>\<td>How can KPIs become management actions?\</td>\<td>Decision Intelligence\</td>\<td>AI Insight Narrative\</td>\</tr>
-
-\</tbody>
-
-\</table>
-
-
-
-\---
-
-
-
-**## 🎯 What This Project Demonstrates**
-
-
-
-\<table>
-
-\<tr>
-
-\<td width="50%">
-
-
-
-**\*\*🏦 Portfolio Management\*\***
-
-\- AUM and disbursal analysis
-
-\- Product concentration & mix
-
-\- Business KPI monitoring
-
-
-
-**\*\*🔴 Credit Risk\*\***
-
-\- DPD bucket analysis
-
-\- Delinquency monitoring
-
-\- 90+ DPD / NPL analytical proxy
-
-\- Product-level risk comparison
-
-
-
-**\*\*🟢 Collections\*\***
-
-\- Collection efficiency
-
-\- Collection gap analysis
-
-\- Priority account logic
-
-\- Recovery-focused recommendations
-
-
-
-\</td>
-
-\<td width="50%">
-
-
-
-**\*\*🟣 Customer Intelligence\*\***
-
-\- Customer segmentation
-
-\- Product penetration
-
-\- Transaction activity signals
-
-\- Customer value scoring
-
-
-
-**\*\*🟠 Insurance Cross-sell\*\***
-
-\- Insurance penetration rate
-
-\- Product whitespace identification
-
-\- Eligible customer opportunity
-
-
-
-**\*\*🤖 AI-assisted Analytics\*\***
-
-\- KPI interpretation
-
-\- Risk alerts & concentration insights
-
-\- Collection & cross-sell recommendations
-
-
-
-\</td>
-
-\</tr>
-
-\</table>
-
-
-
-\---
-
-
-
-**## 📐 Solution Architecture**
-
-
-
-\`\`\`
-
-╔══════════════════════════════════════════════════════════╗
-
-║              🗃️  SYNTHETIC BFSI DATA                    ║
-
-║   Customers │ Loans │ Repayments │ Transactions │ Insur. ║
-
-╚════════════════════════╤═════════════════════════════════╝
-
-                         │
-
-                         ▼
-
-╔══════════════════════════════════════════════════════════╗
-
-║           🔍  DATA VALIDATION & PROFILING               ║
-
-║   Schema • Duplicates • Missing • Range • Quality       ║
-
-╚════════════════════════╤═════════════════════════════════╝
-
-                         │
-
-                         ▼
-
-╔══════════════════════════════════════════════════════════╗
-
-║           🗄️  ANALYTICS DATA LAYER                      ║
-
-║              Raw → Staging → Marts                      ║
-
-║                BigQuery-ready SQL                       ║
-
-╚════════════════════════╤═════════════════════════════════╝
-
-                         │
-
-         ┌───────────────┼───────────────┐
-
-         ▼               ▼               ▼
-
-   ┌───────────┐   ┌──────────┐   ┌────────────┐
-
-   │🐍 Python  │   │📊 R/SAS  │   │🔷 SQL/BQ   │
-
-   │  EDA+KPI  │   │   Risk   │   │ KPI+Risk   │
-
-   └─────┬─────┘   └────┬─────┘   └─────┬──────┘
-
-         └───────────────┼───────────────┘
-
-                         ▼
-
-╔══════════════════════════════════════════════════════════╗
-
-║              📊 BI / KPI LAYER                          ║
-
-║              Power BI  •  Tableau                       ║
-
-╚════════════════════════╤═════════════════════════════════╝
-
-                         │
-
-                         ▼
-
-╔══════════════════════════════════════════════════════════╗
-
-║          🖥️  FinCore IQ EXECUTIVE APP                  ║
-
-║               Streamlit  •  Plotly                      ║
-
-╚════════════════════════╤═════════════════════════════════╝
-
-                         │
-
-                         ▼
-
-╔══════════════════════════════════════════════════════════╗
-
-║              🤖 AI INSIGHT COPILOT                      ║
-
-║       Deterministic Rules + Optional OpenAI             ║
-
-╚════════════════════════╤═════════════════════════════════╝
-
-                         │
-
-                         ▼
-
-              ┌─────────────────────┐
-
-              │ ✅ Business Actions │
-
-              └─────────────────────┘
-
-\`\`\`
-
-
-
-\---
-
-
-
-**## 🧰 Technology Stack**
-
-
-
-\| Layer | Technology | Badge | Purpose |
-
-\|---|---|---|---|
-
-\| **\*\*Programming\*\*** | Python, Pandas, NumPy | ![Python]\(https\://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | Data preparation & analytics |
-
-\| **\*\*Querying\*\*** | SQL, BigQuery SQL | ![SQL]\(https\://img.shields.io/badge/-BigQuery-4285F4?style=flat-square&logo=google-cloud&logoColor=white) | KPI, portfolio & risk analysis |
-
-\| **\*\*BI — Reporting\*\*** | Power BI | ![PowerBI]\(https\://img.shields.io/badge/-Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black) | Business reporting & dashboards |
-
-\| **\*\*BI — Visual Analytics\*\*** | Tableau | ![Tableau]\(https\://img.shields.io/badge/-Tableau-E97627?style=flat-square&logo=tableau&logoColor=white) | Visual analytics layer |
-
-\| **\*\*Application\*\*** | Streamlit, Plotly | ![Streamlit]\(https\://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) | Interactive executive dashboard |
-
-\| **\*\*Statistics\*\*** | R, SAS | ![R]\(https\://img.shields.io/badge/-R-276DC3?style=flat-square&logo=r&logoColor=white) | EDA & structured risk analysis |
-
-\| **\*\*Spreadsheet\*\*** | Advanced Excel | ![Excel]\(https\://img.shields.io/badge/-Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white) | Reconciliation & analyst workflows |
-
-\| **\*\*AI Layer\*\*** | Deterministic + OpenAI | ![OpenAI]\(https\://img.shields.io/badge/-OpenAI-412991?style=flat-square&logo=openai&logoColor=white) | Management-ready insights |
-
-\| **\*\*Testing\*\*** | Pytest | ![Pytest]\(https\://img.shields.io/badge/-Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) | Data-quality validation |
-
-\| **\*\*Version Control\*\*** | Git, GitHub | ![GitHub]\(https\://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white) | Source-code management |
-
-
-
-\---
-
-
-
-**## 📁 Project Structure**
-
-
-
-\`\`\`
-
-📦 CreditLens-360-BFSI-Analytics/
-
-│
-
-├── 📂 app/
-
-│   └── 🐍 app.py                    ← Streamlit Executive Dashboard
-
-│
-
-├── 📂 data/
-
-│   ├── 📂 raw/
-
-│   │   ├── 👤 customers.csv
-
-│   │   ├── 💳 loans.csv
-
-│   │   ├── 💰 repayments.csv
-
-│   │   ├── 📲 transactions.csv
-
-│   │   └── 🛡️ insurance_policies.csv
-
-│   └── 📂 processed/
-
-│       ├── 📊 customer_priority.csv
-
-│       └── 📊 portfolio_by_state_product.csv
-
-│
-
-├── 📂 docs/
-
-│   ├── 📄 INTERVIEW_STORY.md
-
-│   └── 📄 SETUP.md
-
-│
-
-├── 📂 excel/
-
-│   └── 📗 FinCoreIQ_BFSI_Analytics.xlsx
-
-│
-
-├── 📂 powerbi/
-
-│   ├── 📄 README.md
-
-│   └── 🖼️ screenshots/
-
-│
-
-├── 📂 python/
-
-│   ├── 🐍 analysis.py
-
-│   └── 🐍 generate_data.py
-
-│
-
-├── 📂 r/
-
-│   └── 📊 eda.R
-
-│
-
-├── 📂 sas/
-
-│   └── 📈 risk_analysis.sas
-
-│
-
-├── 📂 sql/
-
-│   └── 📂 bigquery/
-
-│       ├── 🔷 01_staging.sql
-
-│       ├── 🔷 02_mart_portfolio.sql
-
-│       ├── 🔷 03_kpi_queries.sql
-
-│       ├── 🔷 04_credit_risk.sql
-
-│       ├── 🔷 05_collections.sql
-
-│       └── 🔷 06_customer_insurance.sql
-
-│
-
-├── 📂 tableau/
-
-│   ├── 📄 README.md
-
-│   └── 🖼️ screenshots/
-
-│
-
-├── 📂 tests/
-
-│   └── 🧪 test_project.py
-
-│
-
-├── .gitignore
-
-├── README.md
-
-└── requirements.txt
-
-\`\`\`
-
-
-
-\---
-
-
-
-**## 🗃️ Data Model**
-
-
-
-\<details>
-
-\<summary>\<b>👤 customers.csv — Customer Intelligence\</b>\</summary>
-
-
-
-\<br/>
-
-
-
-\| Use Case | Fields Involved |
-
-\|---|---|
-
-\| 🗺️ Geography | State, region, branch |
-
-\| 🎯 Segmentation | Customer tier, profile |
-
-\| 📊 Demographic analysis | Age band, income |
-
-\| 🧠 Customer intelligence | Behavioural signals |
-
-
-
-\</details>
-
-
-
-\<details>
-
-\<summary>\<b>💳 loans.csv — Lending & Risk\</b>\</summary>
-
-
-
-\<br/>
-
-
-
-\| Use Case | Fields Involved |
-
-\|---|---|
-
-\| 📦 Product analysis | Loan type, product |
-
-\| 💵 AUM | Outstanding principal |
-
-\| 📤 Disbursals | Original principal |
-
-\| ⚠️ DPD / risk analysis | Days past due, status |
-
-
-
-\</details>
-
-
-
-\<details>
-
-\<summary>\<b>💰 repayments.csv — Collections\</b>\</summary>
-
-
-
-\<br/>
-
-
-
-\| Use Case | Fields Involved |
-
-\|---|---|
-
-\| 📅 Amount due | Due date, due amount |
-
-\| ✅ Amount paid | Payment date, paid amount |
-
-\| 📈 Collection efficiency | Paid / Due ratio |
-
-\| 🔴 Collection gap | Due − Paid |
-
-
-
-\</details>
-
-
-
-\<details>
-
-\<summary>\<b>📲 transactions.csv — Customer Activity\</b>\</summary>
-
-
-
-\<br/>
-
-
-
-\| Use Case | Fields Involved |
-
-\|---|---|
-
-\| 🔄 Engagement analysis | Transaction frequency |
-
-\| 📊 Transaction behavior | Volume, channel |
-
-\| 🧩 Segmentation support | Activity bands |
-
-
-
-\</details>
-
-
-
-\<details>
-
-\<summary>\<b>🛡️ insurance_policies.csv — Cross-sell\</b>\</summary>
-
-
-
-\<br/>
-
-
-
-\| Use Case | Fields Involved |
-
-\|---|---|
-
-\| 🛡️ Insurance penetration | Policy count vs eligible |
-
-\| 🔲 Product whitespace | No-policy active customers |
-
-\| 🎯 Cross-sell opportunity | Eligible + high-value filter |
-
-
-
-\</details>
-
-
-
-\---
-
-
-
-**## 📈 Core KPI Framework**
-
-
-
-\| KPI | Formula | Business Purpose |
-
-\|---|---|---|
-
-\| 💵 **\*\*AUM\*\*** | \`Σ Outstanding Principal\` | Portfolio size |
-
-\| 📤 **\*\*Disbursals\*\*** | \`Σ Original Principal\` | Originations / lending volume |
-
-\| ⚠️ **\*\*Delinquency Rate\*\*** | \`Overdue Active / Total Active\` | Delinquency monitoring |
-
-\| 🔴 **\*\*NPL Proxy\*\*** | \`DPD ≥ 90 Loans / Active Loans\` | Analytical risk signal |
-
-\| ✅ **\*\*Collection Efficiency\*\*** | \`Amount Collected / Amount Due\` | Collections performance |
-
-\| 🛡️ **\*\*Cross-sell Rate\*\*** | \`Active Insurance / Eligible Customers\` | Insurance penetration |
-
-\| 📊 **\*\*Yield\*\*** | \`Interest Income Proxy / Avg Outstanding\` | Portfolio yield analysis |
-
-
-
-\> ⚠️ **\*\*NPL Proxy\*\*** is analytical only — not a regulatory NPA/NPL calculation.
-
-
-
-\---
-
-
-
-**## 🖥️ Executive Dashboard**
-
-
-
-The FinCore IQ Streamlit app is designed as a **\*\*BFSI Executive Command Center\*\*** with five analytical modules:
-
-
-
-\`\`\`
-
-┌─────────────────────────────────────────────────────────────┐
-
-│  📊 EXECUTIVE OVERVIEW                                      │
-
-│  AUM • Disbursals • Loan Count • Delinquency • NPL Proxy   │
-
-│  Collection Efficiency • Portfolio Health • Concentration   │
-
-├─────────────────────────────────────────────────────────────┤
-
-│  🔴 CREDIT RISK                                             │
-
-│  DPD Distribution • Risk Buckets • 90+ DPD Exposure        │
-
-│  Product Risk Matrix • Risk Concentration                   │
-
-├─────────────────────────────────────────────────────────────┤
-
-│  🟢 COLLECTIONS                                             │
-
-│  Collection Efficiency • Collection Gap                     │
-
-│  Recovery Analysis • Priority Accounts                     │
-
-├─────────────────────────────────────────────────────────────┤
-
-│  🟣 CUSTOMER & INSURANCE                                    │
-
-│  Customer Segments • Insurance Penetration                  │
-
-│  Product Whitespace • Cross-sell Opportunities              │
-
-├─────────────────────────────────────────────────────────────┤
-
-│  🤖 AI INSIGHTS                                             │
-
-│  Risk Alerts • Concentration Insights                       │
-
-│  Collection Recommendations • Cross-sell Suggestions        │
-
-└─────────────────────────────────────────────────────────────┘
-
-\`\`\`
-
-
-
-\---
-
-
-
-**## 🤖 AI Insight Copilot**
-
-
-
-The AI layer uses a **\*\*two-tier architecture\*\*** — fully functional without an API key:
-
-
-
-\`\`\`
-
-  Filtered KPI / Analytical Context
-
-               │
-
-               ▼
-
-    ┌─────────────────────────┐
-
-    │  Deterministic Engine   │  ← Always-on, rule-based
-
-    │  Risk Alerts            │
-
-    │  Concentration Signals  │
-
-    │  Collection Flags       │
-
-    └──────────┬──────────────┘
-
-               │
-
-               ▼  (if OPENAI_API_KEY configured)
-
-    ┌─────────────────────────┐
-
-    │  Optional OpenAI Layer  │  ← Management narrative
-
-    │  GPT-powered narrative  │
-
-    └──────────┬──────────────┘
-
-               │
-
-               ▼
-
-    Management-ready Insight
-
-\`\`\`
-
-
-
-**### 🛡️ AI Guardrails**
-
-
-
-\| Rule | Why |
-
-\|---|---|
-
-\| 🚫 No customer PII sent to AI | Privacy & compliance |
-
-\| 📌 Insights grounded in KPI data | Factual accuracy |
-
-\| 👁️ Source values always visible | Transparency |
-
-\| ⚖️ Facts separated from recommendations | Decision-maker accountability |
-
-\| ⚠️ Synthetic data labelled clearly | Not real banking performance |
-
-
-
-**### 🔍 Example AI Signals → Management Actions**
-
-
-
-\| Signal | 🎯 Recommended Action |
-
-\|---|---|
-
-\| 🔴 High 90+ DPD exposure | Prioritize high-risk products / segments |
-
-\| 🟦 High product concentration | Review alongside delinquency trends |
-
-\| 🟢 High collection gap | Focus recovery-targeted accounts |
-
-\| 🟣 Low insurance penetration | Target eligible high-value customers |
-
-
-
-\---
-
-
-
-**## 🧠 SQL / BigQuery Layer**
-
-
-
-\`\`\`
-
-Raw Data  →  Staging  →  Analytics Mart  →  KPI Queries  →  Risk / Collections
-
-\`\`\`
-
-
-
-\| File | Purpose |
-
-\|---|---|
-
-\| \`🔷 01_staging.sql\` | Staging layer — clean & type-cast raw data |
-
-\| \`🔷 02_mart_portfolio.sql\` | Portfolio analytics mart |
-
-\| \`🔷 03_kpi_queries.sql\` | KPI calculations |
-
-\| \`🔷 04_credit_risk.sql\` | Credit-risk analysis |
-
-\| \`🔷 05_collections.sql\` | Collections analysis |
-
-\| \`🔷 06_customer_insurance.sql\` | Customer + insurance analysis |
-
-
-
-\---
-
-
-
-**## 📊 Power BI & Tableau**
-
-
-
-**### Power BI — Recommended Report Pages**
-
-
-
-\`\`\`
-
-Executive Overview → Credit Risk → Collections → Customer & Insurance → Cross-sell
-
-\`\`\`
-
-
-
-**\*\*Visuals:\*\*** KPI Cards · Portfolio by Product · DPD Distribution · Risk Matrix · State Analysis · Collection Gap · Customer Segments
-
-
-
-**### Tableau — Suggested Views**
-
-
-
-\- Portfolio Overview
-
-\- Product Risk Matrix
-
-\- DPD Distribution
-
-\- Collections Gap
-
-\- Insurance Penetration
-
-\- Geography / Branch Analysis
-
-
-
-\> 📁 Screenshots → \`powerbi/screenshots/\` & \`tableau/screenshots/\`
-
-
-
-\---
-
-
-
-**## 🧪 Data Quality & Testing**
-
-
-
-Automated Pytest validation covers:
-
-
-
-\| Check | Description |
-
-\|---|---|
-
-\| ✅ Required input files | All CSVs present |
-
-\| ✅ Required columns | Schema validation |
-
-\| ✅ Loan ID uniqueness | No duplicate keys |
-
-\| ✅ Non-negative DPD | Range validation |
-
-\| ✅ Monetary values | Non-negative check |
-
-\| ✅ Insurance flags | Valid flag values |
-
-\| ✅ Repayment fields | Completeness check |
-
-
-
-\---
-
-
-
-**## 🚀 Quick Start**
-
-
-
-\`\`\`bash
-
-\# 1️⃣  Clone the repository
-
-git clone https\://github.com/VidhyaBoda/CreditLens-360-BFSI-Analytics
-
+<div align="center">
+
+<img src="assets/FinCore%20Header.png" alt="FinCore AI — CreditLens 360 BFSI Analytics" width="100%" />
+
+# CreditLens 360 — BFSI Analytics
+
+### **FinCore AI** · Lending Portfolio Intelligence · Credit Risk · Collections · Customer Analytics
+
+<p>
+  <a href="https://github.com/VidhyaBoda/CreditLens-360-BFSI-Analytics/actions/workflows/ci.yml"><img src="https://github.com/VidhyaBoda/CreditLens-360-BFSI-Analytics/actions/workflows/ci.yml/badge.svg" alt="GitHub Actions CI" /></a>
+  <img src="https://img.shields.io/badge/Python-3.11%2B-3776AB?style=flat&logo=python&logoColor=white" alt="Python 3.11+" />
+  <img src="https://img.shields.io/badge/SQL-BigQuery--ready-4285F4?style=flat&logo=googlecloud&logoColor=white" alt="SQL and BigQuery-ready" />
+  <img src="https://img.shields.io/badge/App-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/Charts-Plotly-3F4F75?style=flat&logo=plotly&logoColor=white" alt="Plotly" />
+  <img src="https://img.shields.io/badge/Data-Synthetic%20Only-F59E0B?style=flat" alt="Synthetic data only" />
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-22C55E?style=flat" alt="MIT License" /></a>
+</p>
+
+**Turn lending data into portfolio visibility, risk signals, collection priorities, and customer opportunities.**
+
+<p>
+  <a href="#-quick-start">Quick Start</a> ·
+  <a href="#-what-you-can-explore">Features</a> ·
+  <a href="#-technology-stack">Technology</a> ·
+  <a href="#-solution-architecture">Architecture</a> ·
+  <a href="#-kpi-framework">KPIs</a> ·
+  <a href="#-testing-and-ci">Testing</a>
+</p>
+
+<p>
+  <a href="https://www.linkedin.com/in/vidhya-boda51/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/VidhyaBoda/CreditLens-360-BFSI-Analytics"><img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub repository" /></a>
+  <a href="mailto:vidhyabboda@gmail.com"><img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
+
+</div>
+
+---
+
+## 🧭 Project overview
+
+**CreditLens 360** is a portfolio-ready BFSI analytics project presented under the product identity **FinCore AI**. It simulates an analytical workflow for a retail bank or NBFC by connecting synthetic customer, loan, repayment, transaction, and insurance data with Python analysis, SQL examples, dashboard assets, and a Streamlit application.
+
+The goal is to demonstrate how an analyst can move from a business question to validated data, measurable KPIs, interpretable visuals, and a clearly explained next action.
+
+> [!IMPORTANT]
+> **Synthetic-data portfolio project.** All generated records are illustrative. The metrics are not audited financial results, production underwriting decisions, real customer records, or regulatory NPA/NPL classifications.
+
+## 📌 Project at a glance
+
+<table>
+  <tr>
+    <td align="center" width="25%"><h3>5,000</h3><sub>Synthetic customers</sub></td>
+    <td align="center" width="25%"><h3>7,200</h3><sub>Synthetic loans</sub></td>
+    <td align="center" width="25%"><h3>30,000</h3><sub>Transactions</sub></td>
+    <td align="center" width="25%"><h3>5</h3><sub>Data domains</sub></td>
+  </tr>
+</table>
+
+| Dimension | Summary |
+|---|---|
+| **Business domain** | Retail lending, banking, financial services, and insurance (BFSI) |
+| **Analytical focus** | Portfolio monitoring, credit-risk indicators, collections, customer intelligence, insurance cross-sell |
+| **Core workflow** | Synthetic data generation → validation → analysis → KPI calculation → visualisation |
+| **Primary application** | Streamlit and Plotly dashboard |
+| **Query layer** | SQL scripts designed as BigQuery-oriented examples |
+| **Quality checks** | Pytest plus a GitHub Actions workflow |
+
+## ✨ What you can explore
+
+| Analytical area | Business questions | Example outputs |
+|---|---|---|
+| **Portfolio management** | How large is the lending portfolio? Which products contribute most? | Outstanding principal, original loan value, product mix |
+| **Credit risk** | Where is delinquency concentrated? How many loans have 90+ DPD? | DPD buckets, delinquency indicators, 90+ DPD analytical proxy |
+| **Collections** | What is the due-versus-paid gap? Which records may need attention? | Amount due, amount paid, collection gap, heuristic priority score |
+| **Customer intelligence** | How are customers distributed by profile and geography? | Income, credit score, segment, and location views |
+| **Transactions** | What activity signals appear in the simulated data? | Transaction types, amounts, and activity summaries |
+| **Insurance cross-sell** | How much simulated policy coverage exists? | Active-policy rate and potential coverage whitespace |
+| **Management reporting** | How can analysis be communicated to decision-makers? | KPI summaries, dashboard visuals, SQL outputs |
+
+## 🛠️ Technology stack
+
+The badges below link the project’s tooling to their official websites. They are visual identifiers; a badge by itself does not imply a cloud deployment or a live third-party integration.
+
+| Layer | Technologies | Badge |
+|---|---|---|
+| Data analysis | Python, Pandas, NumPy | <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" /></a> |
+| Querying | SQL, BigQuery-oriented SQL | <a href="https://cloud.google.com/bigquery"><img src="https://img.shields.io/badge/BigQuery-4285F4?style=flat&logo=googlecloud&logoColor=white" alt="BigQuery" /></a> |
+| Interactive application | Streamlit, Plotly | <a href="https://streamlit.io/"><img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white" alt="Streamlit" /></a> <a href="https://plotly.com/"><img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white" alt="Plotly" /></a> |
+| Business intelligence | Power BI | <a href="https://powerbi.microsoft.com/"><img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black" alt="Power BI" /></a> |
+| Visual analytics | Tableau | <a href="https://www.tableau.com/"><img src="https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white" alt="Tableau" /></a> |
+| Statistical scripts | R, SAS | <img src="https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white" alt="R" /> <img src="https://img.shields.io/badge/SAS-0077B5?style=flat" alt="SAS" /> |
+| Spreadsheet workflow | Microsoft Excel | <img src="https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoftexcel&logoColor=white" alt="Excel" /> |
+| Testing and automation | Pytest, GitHub Actions | <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=flat&logo=pytest&logoColor=white" alt="Pytest" /> <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white" alt="GitHub Actions" /> |
+| Version control | Git, GitHub | <a href="https://github.com/VidhyaBoda/CreditLens-360-BFSI-Analytics"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub" /></a> |
+| Optional AI exploration | OpenAI tooling may be considered as a future extension; core setup does not require an OpenAI API key | <img src="https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white" alt="OpenAI" /> |
+
+## 🧩 Solution architecture
+
+```mermaid
+flowchart TD
+    A[Reproducible synthetic CSV data] --> B[Data checks and profiling]
+    B --> C[Python analytics]
+    C --> D[Processed portfolio outputs]
+    C --> E[KPI and customer-priority indicators]
+    A --> F[SQL / BigQuery-oriented examples]
+    D --> G[Streamlit + Plotly dashboard]
+    E --> G
+    F --> H[Portfolio, risk and collections queries]
+    G --> I[Review findings and identify next analytical action]
+    H --> I
+```
+
+**Analytical workflow:** `Generate → Validate → Analyse → Calculate KPIs → Visualise → Interpret → Act`
+
+## 🚀 Quick Start
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/VidhyaBoda/CreditLens-360-BFSI-Analytics.git
 cd CreditLens-360-BFSI-Analytics
+```
 
+### 2. Create and activate a virtual environment
 
+**Windows PowerShell**
 
-\# 2️⃣  Create virtual environment
-
+```powershell
 python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
 
+**macOS / Linux**
 
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
 
-\# 3️⃣  Activate (Windows PowerShell)
+### 3. Install dependencies
 
-.\\.venv\Scripts\Activate.ps1
+```bash
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python -m pip install pytest
+```
 
+### 4. Generate the synthetic datasets
 
+```bash
+python python/generate_data.py
+```
 
-\# 4️⃣  Install dependencies
+The generator creates five CSV files inside `data/raw/`. Raw CSV files are intentionally excluded from Git to keep generated data out of the repository. Run this step after cloning and before the analysis pipeline or tests.
 
-pip install -r requirements.txt
+### 5. Run the analytics pipeline
 
+```bash
+python python/analysis.py
+```
 
+The analysis script reads generated inputs and writes derived outputs to `data/processed/` as configured by the project.
 
-\# 5️⃣  Launch executive dashboard
+### 6. Launch the dashboard
 
-python -m streamlit run .\app\app.py
+```bash
+python -m streamlit run app/app.py
+```
 
+Open the local URL printed by Streamlit in your browser.
 
+### 7. Run tests and syntax checks
 
-\# 6️⃣  Run analytics pipeline
-
-python .\python\analysis.py
-
-
-
-\# 7️⃣  Run data-quality tests
-
+```bash
 python -m pytest -q
-
-\`\`\`
-
-
-
-\---
-
-
-
-**## ✅ Project Validation**
-
-
-
-\| Check | Status |
-
-\|---|---|
-
-\| 🖥️ Streamlit dashboard | ✅ Done |
-
-\| 🐍 Python compile check | ✅ Done |
-
-\| 🧪 Data-quality / unit tests | ✅ Done |
-
-\| ⚠️ Synthetic data labelled | ✅ Done |
-
-\| 🔐 Secrets excluded from Git | ✅ Done |
-
-\| 🔷 SQL layer documented | ✅ Done |
-
-\| 📊 BI structure prepared | ✅ Done |
-
-\| 📄 Interview documentation | ✅ Done |
-
-\| 📸 Final Power BI screenshots | ⬜ Pending |
-
-\| 📸 Final Tableau screenshots | ⬜ Pending |
-
-
-
-\---
-
-
-
-**## 💼 Interview Pitch**
-
-
-
-**### 🎤 30-Second Version**
-
-
-
-\> *\*"FinCore IQ is an end-to-end BFSI analytics platform I built to simulate a retail lending and customer-intelligence environment. I connected customer, loan, repayment, transaction, and insurance data; built SQL and Python analytics layers; added credit-risk and collections analysis; and exposed the final KPIs through an executive Streamlit dashboard with optional AI-assisted insights."\**
-
-
-
-\---
-
-
-
-**### 🧠 Key Discussion Areas**
-
-
-
-\| Topic | What to Say |
-
-\|---|---|
-
-\| **\*\*Why AUM matters\*\*** | Measures portfolio concentration and product-level exposure |
-
-\| **\*\*How DPD works\*\*** | Days Past Due — the primary credit-risk signal for delinquency monitoring |
-
-\| **\*\*Why 90+ DPD\*\*** | Used as an analytical NPL proxy; not regulatory NPA |
-
-\| **\*\*Collection efficiency\*\*** | Amount Collected ÷ Amount Due — measures recovery performance |
-
-\| **\*\*Collection priority\*\*** | Ranked by gap size and DPD bucket for field-team targeting |
-
-\| **\*\*Product whitespace\*\*** | Customers with active loans but no insurance = cross-sell pipeline |
-
-\| **\*\*Scalability path\*\*** | CSV analytics → BigQuery → dbt → Semantic layer → Power BI |
-
-
-
-\---
-
-
-
-**## ⚠️ Important Limitations**
-
-
-
-FinCore IQ is a **\*\*portfolio simulation\*\***, not a live banking platform.
-
-
-
-\| ❌ Do NOT present as | ✅ Accurate framing |
-
-\|---|---|
-
-\| Real customer performance | Synthetic simulation |
-
-\| Production underwriting | Analytical prototype |
-
-\| Regulatory NPA reporting | Analytical NPL proxy only |
-
-\| Real profitability | Illustrative yield analysis |
-
-\| Real-time banking data | Static synthetic dataset |
-
-
-
-\---
-
-
-
-**## 🔮 Production Roadmap**
-
-
-
-\`\`\`
-
-Kafka / CDC Ingestion
-
-        ↓
-
-Cloud Storage (GCS / S3)
-
-        ↓
-
-BigQuery Data Warehouse
-
-        ↓
-
-dbt Transformation Layer
-
-        ↓
-
-Semantic / Metric Layer
-
-        ↓
-
-Power BI / Tableau Reports
-
-        ↓
-
-ML-based Credit Risk Models
-
-        ↓
-
-LLM Insight Service (RAG)
-
-        ↓
-
-Monitoring & Governance
-
-\`\`\`
-
-
-
-**\*\*Planned Enhancements\*\***
-
-
-
-\- ☁️ Cloud-native ingestion pipeline
-
-\- 🔄 Incremental data processing
-
-\- 🌿 dbt transformation layer
-
-\- 🧩 Semantic data model
-
-\- 🤖 ML-based credit-risk scoring
-
-\- 📞 Advanced collections prioritization
-
-\- 💎 Customer lifetime-value analytics
-
-\- 🔐 Role-based access & security
-
-\- 📡 Production monitoring & alerting
-
-
-
-\---
-
-
-
-**## ⭐ Why This Project Matters**
-
-
-
-\> The value is not the number of tools used.
-
-\> It is the **\*\*ability to convert a business problem into measurable decisions.\*\***
-
-
-
-\`\`\`
-
-Business Problem  →  Data  →  Validation  →  Analysis
-
-        →  KPI  →  Visualization  →  Insight  →  Action
-
-\`\`\`
-
-
-
-**\*\*That is the core analyst-to-decision workflow FinCore IQ demonstrates.\*\***
-
-
-
-\---
-
-
-
-**## 👨‍💻 Author**
-
-
-
-\<div align="center">
-
-
-
-**### Vidhya Boda**
-
-**\*\*Data Analyst | Business Intelligence (BI) Analyst | Business Analyst\*\***
-
-
-
-[![LinkedIn]\(https\://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]\(https\://www\.linkedin.com/in/vidhya-boda51/)
-
-[![GitHub]\(https\://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)]\(https\://github.com/VidhyaBoda/CreditLens-360-BFSI-Analytics)
-
-[![Email]\(https\://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)]\(mailto:vidhyabboda\@gmail.com)
-
-
-
-\<br/>
-
-
-
-*\*📍 Ahmedabad,Gujarat, India\**
-
-
-
-\</div>
-
-
-
-\---
-
-
-
-**## 📄 License**
-
-
-
-This project is released under the [MIT License]\(LICENSE).
-
-
-
-\---
-
-
-
-\<div align="center">
-
-
-
-\<img src="https\://capsule-render.vercel.app/api?type=waving&color=0:0f3460,50:16213e,100:1a1a2e&height=120&section=footer" width="100%"/>
-
-
-
-**\*\*⭐ Found this useful? Give it a star on GitHub!\*\***
-
-
-
-*\*Built with\** ![Python]\(https\://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL]\(https\://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![PowerBI]\(https\://img.shields.io/badge/-Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black) ![Streamlit]\(https\://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![AI]\(https\://img.shields.io/badge/-AI-412991?style=flat-square&logo=openai&logoColor=white)
-
-
-
-\</div>
+python -m compileall -q app python tests
+```
+
+## 📊 Dashboard and BI assets
+
+The repository contains dashboard reference images for portfolio presentation and documentation. They are static assets; their presence does **not** mean a live Power BI Service or Tableau deployment is included.
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong>Power BI dashboard reference</strong><br/><br/>
+      <img src="powerbi/Images/FinCore%20AI%20BFSI%20Analytics%20Dashboard.png" alt="Power BI dashboard reference" width="100%"/><br/>
+      <sub><a href="powerbi/README.md">Power BI documentation</a></sub>
+    </td>
+    <td align="center" width="50%">
+      <strong>Tableau dashboard reference</strong><br/><br/>
+      <img src="tableau/Images/FinCore%20AI%20BFSI%20Analytics%20Dashboard.png" alt="Tableau dashboard reference" width="100%"/><br/>
+      <sub><a href="tableau/README.md">Tableau documentation</a></sub>
+    </td>
+  </tr>
+</table>
+
+## 🗃️ Synthetic data model
+
+The data generator uses a fixed random seed, making the dataset reproducible for a consistent generator and dependency version.
+
+| File | Approximate records | Purpose |
+|---|---:|---|
+| `customers.csv` | 5,000 | Customer ID, age, income, segment, credit score, geography, join date |
+| `loans.csv` | 7,200 | Customer link, product, channel, disbursement date, principal, tenure, interest rate, DPD, status, outstanding principal |
+| `repayments.csv` | 7,200 | One illustrative due/paid observation per loan |
+| `transactions.csv` | 30,000 | Synthetic transaction ID, customer link, date, type, amount |
+| `insurance_policies.csv` | 5,000 | Policy type, annual premium, customer link, active-policy flag |
+
+### Data relationships
+
+- `customers.customer_id` links to `loans.customer_id`, `transactions.customer_id`, and `insurance_policies.customer_id`.
+- `loans.loan_id` links to `repayments.loan_id`.
+- `repayments.csv` represents **one observation per loan**, not a full monthly repayment-event history.
+- Every generated record is synthetic; do not treat it as real consumer or bank data.
+
+## 📐 KPI framework
+
+| KPI / indicator | Illustrative calculation | Business interpretation |
+|---|---|---|
+| **Outstanding portfolio / AUM proxy** | Sum of `outstanding_principal` | Outstanding exposure represented in the synthetic portfolio |
+| **Original loan value** | Sum of `original_amount` | Original principal represented by the loan records |
+| **Delinquency indicator** | Loans with `dpd > 0` ÷ selected loan population | Share of loans with positive days past due |
+| **90+ DPD indicator** | Loans with `dpd >= 90` ÷ selected loan population | Severe-delinquency proxy for analytical review |
+| **Collection gap** | `amount_due - amount_paid` | Difference between illustrative due and paid amounts |
+| **Collection efficiency** | Computed from per-row paid/due ratios in the analysis script | Indicative recovery measure; verify aggregation assumptions before comparison |
+| **Insurance coverage / penetration** | Active-policy records relative to the chosen customer population | Coverage indicator within the synthetic scenario |
+| **Customer-priority score** | Heuristic using normalised AUM, capped maximum DPD, and average rate | Triage-style ranking—not probability of default |
+
+> **Metric discipline:** Population filters, aggregation rules, observation dates, and denominator selection affect KPI values. See [`docs/KPI_DEFINITIONS.md`](docs/KPI_DEFINITIONS.md) before interpreting or comparing results. A 90+ DPD indicator is **not** a regulatory NPA/NPL determination.
+
+## 🧠 SQL / BigQuery query layer
+
+The numbered scripts follow an analytical workflow from data preparation through portfolio, risk, collections, and insurance queries.
+
+| Script | Purpose |
+|---|---|
+| [`01_staging.sql`](sql/bigquery/01_staging.sql) | Staging and data preparation |
+| [`02_mart_portfolio.sql`](sql/bigquery/02_mart_portfolio.sql) | Portfolio analytics mart |
+| [`03_kpi_queries.sql`](sql/bigquery/03_kpi_queries.sql) | KPI queries |
+| [`04_credit_risk.sql`](sql/bigquery/04_credit_risk.sql) | Credit-risk analysis |
+| [`05_collections.sql`](sql/bigquery/05_collections.sql) | Collections analysis |
+| [`06_customer_insurance.sql`](sql/bigquery/06_customer_insurance.sql) | Customer and insurance analysis |
+
+These SQL files are examples to review and adapt. Running them in BigQuery requires a configured Google Cloud project, suitable datasets and permissions, and matching table references.
+
+## 🧪 Testing and CI
+
+The project includes a pytest suite and a GitHub Actions workflow. The CI workflow is configured to:
+
+1. Check out the repository and set up Python.
+2. Install project dependencies and pytest.
+3. Generate synthetic input datasets.
+4. Run automated tests.
+5. Compile Python source files.
+
+[![GitHub Actions CI](https://github.com/VidhyaBoda/CreditLens-360-BFSI-Analytics/actions/workflows/ci.yml/badge.svg)](https://github.com/VidhyaBoda/CreditLens-360-BFSI-Analytics/actions/workflows/ci.yml)
+
+A passing workflow confirms only the checks encoded in CI. It is not proof of production readiness, model validity, regulatory compliance, or financial accuracy.
+
+## 📁 Project structure
+
+```text
+CreditLens-360-BFSI-Analytics/
+├── .github/
+│   └── workflows/
+│       ├── ci.yml
+│       ├── generator-generic-ossf-slsa3-publish.yml
+│       ├── python-publish.yml
+│       └── r.yml
+├── app/
+│   └── app.py
+├── assets/
+│   └── FinCore Header.png
+├── data/
+│   ├── raw/                         # Generated locally; CSVs ignored by Git
+│   ├── processed/
+│   │   ├── customer_priority.csv
+│   │   └── portfolio_by_state_product.csv
+│   └── README.md
+├── docs/
+│   ├── ARCHITECTURE.md
+│   ├── DATA_DICTIONARY.md
+│   ├── INTERVIEW_STORY.md
+│   ├── KPI_DEFINITIONS.md
+│   └── SETUP.md
+├── excel/
+│   └── FinSight_BFSI_Analytics_Excel.xlsx
+├── powerbi/
+│   ├── Images/
+│   └── README.md
+├── python/
+│   ├── analysis.py
+│   ├── generate_data.py
+│   └── utils.py
+├── r/
+│   └── eda.R
+├── sas/
+│   └── risk_analysis.sas
+├── sql/
+│   └── bigquery/
+│       ├── 01_staging.sql
+│       ├── 02_mart_portfolio.sql
+│       ├── 03_kpi_queries.sql
+│       ├── 04_credit_risk.sql
+│       ├── 05_collections.sql
+│       └── 06_customer_insurance.sql
+├── tableau/
+│   ├── Images/
+│   └── README.md
+├── tests/
+│   └── test_project.py
+├── .gitignore
+├── LICENSE
+├── pyproject.toml
+├── README.md
+└── requirements.txt
+```
+
+## 📚 Project documentation
+
+| Document | Purpose |
+|---|---|
+| [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | Solution design and component flow |
+| [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.md) | Dataset fields and descriptions |
+| [`docs/KPI_DEFINITIONS.md`](docs/KPI_DEFINITIONS.md) | KPI definitions and interpretation notes |
+| [`docs/SETUP.md`](docs/SETUP.md) | Environment and setup guidance |
+| [`docs/INTERVIEW_STORY.md`](docs/INTERVIEW_STORY.md) | Project explanation and interview talking points |
+| [`data/README.md`](data/README.md) | Data folder notes |
+| [`powerbi/README.md`](powerbi/README.md) | Power BI asset notes |
+| [`tableau/README.md`](tableau/README.md) | Tableau asset notes |
+
+## 🎯 Recruiter-friendly project highlights
+
+- **End-to-end workflow:** synthetic data generation, analysis, KPI reporting, dashboard assets, and testing.
+- **Business-first thinking:** maps lending and collections questions to measurable indicators.
+- **Technical breadth:** Python, SQL, BigQuery-oriented scripts, Streamlit, Plotly, R, SAS, Excel, and BI documentation.
+- **Reproducibility:** the generator uses a fixed random seed, and CI regenerates the raw datasets before tests.
+- **Responsible interpretation:** documents synthetic-data constraints and avoids labelling heuristic scores as validated credit-risk predictions.
+
+### Interview-ready summary
+
+> **CreditLens 360 / FinCore AI** is an end-to-end BFSI analytics portfolio project that simulates retail-lending data across customers, loans, repayments, transactions, and insurance. I use Python for data generation and analysis, SQL for portfolio and risk queries, and a Streamlit dashboard for KPI exploration. The project demonstrates how to turn data into portfolio visibility, delinquency indicators, collection-gap analysis, and customer-insurance opportunities, while documenting synthetic-data and regulatory limitations.
+
+## ⚠️ Scope and limitations
+
+- **Synthetic portfolio:** output does not represent real customers, actual bank performance, or real credit exposure.
+- **Not a production scoring model:** customer priority is a heuristic for analytical triage, not a validated probability-of-default score or lending recommendation.
+- **Simplified repayments:** one generated repayment observation per loan does not model a complete payment history.
+- **Regulatory caution:** 90+ DPD is an analytical indicator only and must not be presented as a regulatory NPA/NPL result.
+- **Tool boundaries:** Python, SQL, R, SAS, Excel, Power BI, and Tableau assets may need separate runtimes or configuration; the Python quick-start does not execute every tool.
+- **Static demo:** no live bank feed, production scheduler, or operational decision service is implied.
+
+## 🗺️ Future improvements
+
+- Expand repayment data into a dated monthly event history.
+- Add schema, referential-integrity, and boundary-condition tests.
+- Reconcile Python outputs against SQL KPI results.
+- Introduce a semantic layer for consistent metric definitions.
+- Add predictive modelling only with suitable labels, temporal validation, calibration, and explainability.
+- Package the dashboard with deployment configuration, monitoring, and access controls.
+
+## 👩‍💻 Author
+
+<div align="center">
+
+### **Vidhya Boda**
+
+**Data Analyst · Business Intelligence Analyst · Business Analyst**
+
+<p>
+  <a href="https://www.linkedin.com/in/vidhya-boda51/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/VidhyaBoda"><img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
+  <a href="mailto:vidhyabboda@gmail.com"><img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
+
+</div>
+
+## 📄 License
+
+This project is distributed under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+
+### ⭐ From business question to measurable insight
+
+**Business problem → Data → Validation → Analysis → KPI → Visualisation → Insight → Action**
+
+*Built as a learning and portfolio project by Vidhya Boda.*
+
+</div>
