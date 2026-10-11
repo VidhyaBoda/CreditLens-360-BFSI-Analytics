@@ -1,0 +1,53 @@
+name: CreditLens 360 CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Python Validation
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Configure Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      # 3. Upgrade pip
+      - name: Upgrade pip
+        run: python -m pip install --upgrade pip
+
+      # 4. Install project dependencies
+      - name: Install project dependencies
+        run: python -m pip install -r requirements.txt
+
+      # 5. Install test runner
+      - name: Install pytest
+        run: python -m pip install pytest
+
+      # 6. Generate synthetic datasets for CI tests
+      - name: Generate synthetic datasets
+        run: python python/generate_data.py
+
+      # 7. Run automated tests
+      - name: Run automated tests
+        run: python -m pytest -q
+
+      # 8. Check Python syntax
+      - name: Compile Python source files
+        run: python -m compileall -q app python tests

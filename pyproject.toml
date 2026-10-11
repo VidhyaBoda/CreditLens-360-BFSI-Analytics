@@ -1,0 +1,11 @@
+[project]
+name = "creditlens-360-bfsi-analytics"
+version = "1.0.0"
+description = "BFSI lending portfolio analytics, credit-risk indicators, and customer prioritization."
+readme = "README.md"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+addopts = "-ra"
